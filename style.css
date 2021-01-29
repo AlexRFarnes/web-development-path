@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #425b84;
+  --secondary-color: #5b7bb4;
+  --max-width: 110rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary-color);
+  color: #fff;
+  overflow-x: hidden;
+  padding-bottom: 5rem;
+}
+h1 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.6rem;
+}
+
+.main-header {
+  background: var(--secondary-color);
+  padding: 6.4rem 0;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.timeline__list {
+  background-color: var(--primary-color);
+  padding: 5rem 0;
+}
+
+/* Timeline line */
+
+.timeline__item {
+  list-style: none;
+  position: relative;
+  width: 0.6rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  background-color: #fff;
+}
+
+/* Boxes  */
+/* .timeline__box {
+} */
